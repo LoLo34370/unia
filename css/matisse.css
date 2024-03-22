@@ -662,7 +662,7 @@ span.FARAL {
 }
 
 .menu__link {
-    font-size: 1.2rem;
+    font-size: 30px;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
@@ -670,6 +670,7 @@ span.FARAL {
     text-decoration: none;
     opacity: 0.75;
     font-weight: 300;
+    font-family: Mouse Memoirs;
   }
   
   .menu__link:hover {
