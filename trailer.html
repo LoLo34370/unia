@@ -9,10 +9,23 @@
     <link rel="icon" type="image/png" href="/img/Unia-logo.png">
 </head>
 <body>
-    
-
-     <video controls id="fullscreen-video">
+    <video id="fullscreen-video" controls>
         <source src="img/Inconigo logo.mp4" type="video/mp4">
-     </video>
+    </video>
+
+    <script>
+        // Détecter si l'utilisateur consulte le site sur un appareil mobile
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        // Sélectionner la balise vidéo
+        var video = document.getElementById('fullscreen-video');
+
+        // Si l'utilisateur est sur un appareil mobile, ajouter l'attribut 'controls' pour afficher les contrôles de la vidéo
+        if (isMobile) {
+            video.setAttribute('controls', 'controls');
+        } else { // Sinon, si c'est un bureau, activer l'autoplay
+            video.setAttribute('autoplay', 'autoplay');
+        }
+    </script>
 </body>
 </html>
