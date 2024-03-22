@@ -689,10 +689,6 @@ svg path{
   flex-wrap: wrap;
 }
 
-.menu{
-  font-family: Mouse Memoirs;
-}
-
 .social-icon__item,
 .menu__item {
   list-style: none;
@@ -710,7 +706,7 @@ svg path{
 }
 
 .menu__link {
-  font-size: 1.2rem;
+  font-size: 30px;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -718,6 +714,7 @@ svg path{
   text-decoration: none;
   opacity: 0.75;
   font-weight: 300;
+  font-family: Mouse Memoirs;
 }
 
 .menu__link:hover {
