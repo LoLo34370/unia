@@ -13,8 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-        <meta http-equiv="refresh" content="30; URL=https://unia-partiel.netlify.app/">
-    <title>Blog / forum !</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+        <link rel="icon" type="image/png" href="/img/Unia-logo.png">
+        
+    <title>Blog</title>
 </head>
 
 <body>
@@ -157,10 +159,10 @@
     </script>
     
     
-    <h1 class="titre-forum">Bienvenue sur le Forum</h1>
+    <h1 data-aos="zoom-out" class="titre-forum">Bienvenue sur le Forum</h1>
     <br>
-    <section class="feed">
-        <div class="blc">
+    <section data-aos="zoom-out" class="feed">
+        <div  class="blc">
             <div class="filtre">
                 <div class="mesButton">
                     <a href="blog.html"><button class="btn1 active"onclick="changeButtonColor(this)">Cyberharcelement</button></a>
@@ -491,6 +493,10 @@
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
     
 

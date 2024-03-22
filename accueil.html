@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar arrondie au milieu</title>
+    <title>Accueil</title>
     <!-- Lien vers Bootstrap CSS -->
     <link href="css/matisse.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mouse+Memoirs&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
     <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mouse+Memoirs&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<meta http-equiv="refresh" content="30; URL=https://unia-partiel.netlify.app/">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/Unia-logo.png">
+
     <style>
         .rounded-navbar {
             border-radius: 50px;
@@ -35,8 +37,8 @@
             box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.1);
             background-color: white !important;
             height: 60px;
-            background-color: rgba(244, 244, 244, 0.5) !important; 
-        backdrop-filter: blur(2px) !important; 
+            background-color: rgba(244, 244, 244, 0.5) !important;
+            backdrop-filter: blur(2px) !important;
         }
 
         .container-bg {
@@ -84,61 +86,76 @@
 
 
         /* Styles pour les écrans de moins de 766px */
-@media (max-width: 765px) {
-    /* Pour supprimer le bouton de déconnexion */
-    .logout-btn {
-        display: none !important;
-    }
+        @media (max-width: 765px) {
 
-    }
+            /* Pour supprimer le bouton de déconnexion */
+            .logout-btn {
+                display: none !important;
+            }
 
-    @media (max-width: 767px) {
-    .custom-card-2 {
-        margin-top: 50px !important; /* Ajoutez la marge en haut */
-        margin-bottom: 20px !important; /* Ajoutez la marge en bas */
-    }
-}
+        }
 
-@media (max-width: 767px) {
-    .custom-card-margin {
-        
-        margin-top: 100px !important; /* Ajoutez la marge en haut */
+        @media (max-width: 767px) {
+            .custom-card-2 {
+                margin-top: 50px !important;
+                /* Ajoutez la marge en haut */
+                margin-bottom: 20px !important;
+                /* Ajoutez la marge en bas */
+            }
+        }
 
-    }
-    .navbar-toggler {
-    margin-top: -7%; /* Ajuster la marge en haut pour remonter le burger menu */
-    border: none; /* Supprime le bord */
-    outline: none; /* Supprime la mise en évidence lorsqu'il est cliqué */
-}
+        @media (max-width: 767px) {
+            .custom-card-margin {
+
+                margin-top: 100px !important;
+                /* Ajoutez la marge en haut */
+
+            }
+
+            .navbar-toggler {
+                margin-top: -7%;
+                /* Ajuster la marge en haut pour remonter le burger menu */
+                border: none;
+                /* Supprime le bord */
+                outline: none;
+                /* Supprime la mise en évidence lorsqu'il est cliqué */
+            }
 
 
-.navbar-toggler-icon {
-    background-image: url('data:image/svg+xml;charset=utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>'); /* Utilisez une icône appropriée ici */
-}
+            .navbar-toggler-icon {
+                background-image: url('data:image/svg+xml;charset=utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+                /* Utilisez une icône appropriée ici */
+            }
 
 
-.navbar-brand {
-    margin-top: -10%; /* Ajuster la marge en haut pour remonter le logo */
-}
+            .navbar-brand {
+                margin-top: -10%;
+                /* Ajuster la marge en haut pour remonter le logo */
+            }
 
-}
+        }
 
-.custom-card:hover {
-    transform: scale(1.05); /* Zoom de 5% lorsque survolé */
-    transition: transform 0.3s ease; /* Transition fluide */
-}
+        .custom-card:hover {
+            transform: scale(1.05);
+            /* Zoom de 5% lorsque survolé */
+            transition: transform 0.3s ease;
+            /* Transition fluide */
+        }
 
-.custom-card {
-    transition: transform 0.3s ease; /* Transition fluide */
-}
+        .custom-card {
+            transition: transform 0.3s ease;
+            /* Transition fluide */
+        }
     </style>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-navbar fixed-top" style="font-family: 'Mouse Memoirs'; font-size: 22px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-navbar fixed-top"
+        style="font-family: 'Mouse Memoirs'; font-size: 22px;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand mx-auto" href="accueil.html">
@@ -147,7 +164,8 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item active">
-                        <a class="nav-link" href="accueil.html" style="color:#0D3D5F">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="accueil.html" style="color:#0D3D5F">Accueil <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="journal.html" style="color:#0D3D5F">Mon Journal</a>
@@ -165,249 +183,302 @@
             </div>
             <div class="ml-auto">
                 <a href="index.html">
-                    <button  class="btn logout-btn min-width: 150px; font-family: 'Barlow'">Déconnexion</button>
+                    <button class="btn logout-btn min-width: 150px; font-family: 'Barlow'">Déconnexion</button>
                 </a>
             </div>
         </div>
     </nav>
-    
-    
-<div class="container-fluid container-bg d-flex align-items-center justify-content-center">
-    <div class="text-center">
-        <h2 style="font-family: 'Mouse Memoirs'; font-size: 50px; color:#0D3D5F">Stop au cyber-harcèlement : Ensemble, <br>faisons de l'internet un espace sûr pour <br> tous.</h2>
-        <a id="mon-journal-accueil-btn" href="journal.html" class="btn btn-success mt-4 custom-bouton-accueil">MON JOURNAL</a>
-    </div>
-</div>
 
 
-<div class="container custom-contenaire-graph" data-aos="fade-right">
-    <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Qu'est-ce que le cyber harcèlement ?</h1>
-    
-    <!-- Div pour la vidéo au milieu de la page -->
-    <div class="text-center mt-5" data-aos="fade-right">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/qOE1lWE_XCM" frameborder="0" allowfullscreen></iframe>
+    <div data-aos="zoom-out" class="container-fluid container-bg d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <h2 style="font-family: 'Mouse Memoirs'; font-size: 50px; color:#0D3D5F">Stop au cyber-harcèlement :
+                Ensemble, <br>faisons de l'internet un espace sûr pour <br> tous.</h2>
+            <a id="mon-journal-accueil-btn" href="journal.html" class="btn btn-success mt-4 custom-bouton-accueil">MON
+                JOURNAL</a>
         </div>
     </div>
-    
-    
-    <h1 class="text-center mt-5" data-aos="zoom-in-down" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Comprendre les Motivations du Cyberharcèlement </h1>
-    <div class="row mt-5" data-aos="zoom-in-down">
-        <div class="col-md-6 mb-4 custom-texte-graph mx-auto" style="max-width: 600px;">
-            <p style="font-family: 'Barlow'; font-size: 18px; text-align: justify;">
-                Le cyberharcèlement est devenu un problème majeur à l'ère <strong>numérique</strong>, affectant <strong>des millions de personnes</strong> à travers le monde. 
-                Ce graphique présente une répartition des causes du <strong>cyberharcèlement</strong> par catégorie, fournissant un aperçu précieux des motivations 
-                sous-jacentes à ces comportements nuisibles. En examinant de près ces différentes catégories, nous pouvons mieux comprendre les 
-                <strong>dynamiques complexes</strong> qui alimentent le cyberharcèlement, et ainsi développer des stratégies plus efficaces pour prévenir et <strong>combattre </strong> ce fléau.
-            </p>
+
+
+    <div class="container custom-contenaire-graph" data-aos="fade-right">
+        <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Qu'est-ce que le
+            cyber harcèlement ?</h1>
+
+        <!-- Div pour la vidéo au milieu de la page -->
+        <div class="text-center mt-5" data-aos="fade-right">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315"
+                    src="https://www.youtube.com/embed/qOE1lWE_XCM" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-md-6 mb-4 mt-5 mx-auto">
-            <h5 class="text-center" style="font-family: 'Barlow';">Répartition des causes du cyberharcèlement</h5>
-<div class="simple-bar-chart">
-
-<div class="item" style="--clr: #5EB344; --val: 20">
-<div class="label">Conflits personnels</div>
-<div class="value">20%</div>
-</div>
-
-<div class="item" style="--clr: #FCB72A; --val: 25">
-<div class="label">Apparence physique</div>
-<div class="value">25%</div>
-</div>
-
-<div class="item" style="--clr: #F8821A; --val: 15">
-<div class="label">Orientation sexuelle</div>
-<div class="value">15%</div>
-</div>
-
-<div class="item" style="--clr: #E0393E; --val: 20">
-<div class="label">Racisme / discrimination</div>
-<div class="value">20%</div>
-</div>
-
-<div class="item" style="--clr: #963D97; --val: 10">
-<div class="label">Jalousie</div>
-<div class="value">10%</div>
-</div>
-
-<div class="item" style="--clr: #069CDB; --val: 10">
-<div class="label">Représailles</div>
-<div class="value">10%</div>
-</div>
-</div>
-</div>
-</div>
 
 
-<div class="container mt-5 custom-contenaire-ateliers" data-aos="zoom-out">
-    <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Ateliers</h1>
-    <div class="row justify-content-center mt-5 text-center">
-        <div class="col-md-4">
-            <a href="https://www.epda.fr/les-ateliers-cyber-harcelement/" class="card mb-3 h-100 mx-auto custom-card" style="background-color: #7386BF; text-decoration: none;">
-                <img src="img/atelier-1.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title text-center text-white" style="font-family: 'Mouse Memoirs'; font-size: 25px;">Atelier de groupe</h5>
-                    <p class="card-text text-center text-white mt-2" style="font-family: 'Barlow'; font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                      </svg> Jeux de Rôle</p>
-                    <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                      </svg>Débats en Groupe</p>
-                    <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                      </svg> Projets Collaboratifs</p>
-                </div>
-                
-            </a>
-            
-        </div>
-        <div class="col-md-4">
-            <a href="https://www.youtube.com/@Education_Gouv" class="card mb-3 h-100 mx-auto custom-card-2 custom-card" style="background-color: #F2CB57; text-decoration: none;">
-                <img src="img/atelier-2.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title text-center text-white" style="font-family: 'Mouse Memoirs'; font-size: 25px;">Vidéos de Psychologues et Experts</h5>
-                    <p class="card-text text-center text-white mt-2" style="font-family: 'Barlow'; font-size: 18px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8538A6" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                        </svg> Interventions de <br> Psychologues
-                    </p>
-                    <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8538A6" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                        </svg> Témoignages <br> d’Experts
-                    </p>
-                </div>
-            </a>
-        </div>
-        
-        
-        <div class="col-md-4 custom-card-margin">
-            <a href="https://supaheroes.fr/developpement-de-lintelligence-emotionnelle-chez-les-enfants-pour-prevenir-et-combattre-le-harcelement-scolaire/" class="card mb-3 h-100 mx-auto custom-card" style="background-color: #8538A6; text-decoration: none;">
-                <img src="img/atelier-3.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title text-center text-white" style="font-family: 'Mouse Memoirs'; font-size: 25px;">Ateliers de Développement Émotionnel</h5>
-                    <p class="card-text text-center text-white mt-2" style="font-family: 'Barlow'; font-size: 18px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                        </svg> Gestion des <br> Émotions
-                    </p>
-                    <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                        </svg> Confiance en Soi
-                    </p>
-                    <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                        </svg> Expression Créative
-                    </p>
-                </div>
-            </a>
-        </div>
-        
+        <h1 class="text-center mt-5" data-aos="zoom-in-down"
+            style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Comprendre les Motivations du
+            Cyberharcèlement </h1>
+        <div class="row mt-5" data-aos="zoom-in-down">
+            <div class="col-md-6 mb-4 custom-texte-graph mx-auto" style="max-width: 600px;">
+                <p style="font-family: 'Barlow'; font-size: 18px; text-align: justify;">
+                    Le cyberharcèlement est devenu un problème majeur à l'ère <strong>numérique</strong>, affectant
+                    <strong>des millions de personnes</strong> à travers le monde.
+                    Ce graphique présente une répartition des causes du <strong>cyberharcèlement</strong> par catégorie,
+                    fournissant un aperçu précieux des motivations
+                    sous-jacentes à ces comportements nuisibles. En examinant de près ces différentes catégories, nous
+                    pouvons mieux comprendre les
+                    <strong>dynamiques complexes</strong> qui alimentent le cyberharcèlement, et ainsi développer des
+                    stratégies plus efficaces pour prévenir et <strong>combattre </strong> ce fléau.
+                </p>
+            </div>
+            <div class="col-md-6 mb-4 mt-5 mx-auto">
+                <h5 class="text-center" style="font-family: 'Barlow';">Répartition des causes du cyberharcèlement</h5>
+                <div class="simple-bar-chart">
 
+                    <div class="item" style="--clr: #5EB344; --val: 20">
+                        <div class="label">Conflits personnels</div>
+                        <div class="value">20%</div>
+                    </div>
+
+                    <div class="item" style="--clr: #FCB72A; --val: 25">
+                        <div class="label">Apparence physique</div>
+                        <div class="value">25%</div>
+                    </div>
+
+                    <div class="item" style="--clr: #F8821A; --val: 15">
+                        <div class="label">Orientation sexuelle</div>
+                        <div class="value">15%</div>
+                    </div>
+
+                    <div class="item" style="--clr: #E0393E; --val: 20">
+                        <div class="label">Racisme / discrimination</div>
+                        <div class="value">20%</div>
+                    </div>
+
+                    <div class="item" style="--clr: #963D97; --val: 10">
+                        <div class="label">Jalousie</div>
+                        <div class="value">10%</div>
+                    </div>
+
+                    <div class="item" style="--clr: #069CDB; --val: 10">
+                        <div class="label">Représailles</div>
+                        <div class="value">10%</div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container custom-contenaire-partenaires" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom">
-            <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Nos partenaires :</h1>
-            <div class="scroll mt-2">
-                <div id="caroussel-bis" class="m-scroll mt-5">
-                    <!-- Répétez les logos de vos partenaires selon vos besoins -->
-                    <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/edf 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
-                    <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
-                    <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
-                    <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
-                    <img decoding="async" src="/img/levis.png" alt="INRAE">
-                    <img decoding="async" src="/img/supreme.png" alt="INRAE">
-                    <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/edf 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
-                    <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
-                    <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
-                    <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
-                    <img decoding="async" src="/img/levis.png" alt="INRAE">
-                    <img decoding="async" src="/img/supreme.png" alt="INRAE">
-                    <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/edf 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
-                    <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
-                    <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
-                    <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
-                    <img decoding="async" src="/img/levis.png" alt="INRAE">
-                    <img decoding="async" src="/img/supreme.png" alt="INRAE">
-                    <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/edf 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
-                    <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
-                    <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
-                    <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
-                    <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
-                    <img decoding="async" src="/img/levis.png" alt="INRAE">
-                    <img decoding="async" src="/img/supreme.png" alt="INRAE">
-                    
-                    <!-- Assurez-vous d'ajouter suffisamment d'éléments pour un défilement fluide -->
-                    <!-- Répétez les logos de vos partenaires selon vos besoins -->
+
+        <div class="container mt-5 custom-contenaire-ateliers" data-aos="zoom-out">
+            <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Ateliers</h1>
+            <div class="row justify-content-center mt-5 text-center">
+                <div class="col-md-4">
+                    <a href="https://www.epda.fr/les-ateliers-cyber-harcelement/"
+                        class="card mb-3 h-100 mx-auto custom-card"
+                        style="background-color: #7386BF; text-decoration: none;">
+                        <img src="img/atelier-1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center text-white"
+                                style="font-family: 'Mouse Memoirs'; font-size: 25px;">Atelier de groupe</h5>
+                            <p class="card-text text-center text-white mt-2"
+                                style="font-family: 'Barlow'; font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="#F2CB57" class="bi bi-caret-right-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Jeux de Rôle</p>
+                            <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg>Débats en Groupe
+                            </p>
+                            <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Projets Collaboratifs
+                            </p>
+                        </div>
+
+                    </a>
+
                 </div>
+                <div class="col-md-4">
+                    <a href="https://www.youtube.com/@Education_Gouv"
+                        class="card mb-3 h-100 mx-auto custom-card-2 custom-card"
+                        style="background-color: #F2CB57; text-decoration: none;">
+                        <img src="img/atelier-2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center text-white"
+                                style="font-family: 'Mouse Memoirs'; font-size: 25px;">Vidéos de Psychologues et Experts
+                            </h5>
+                            <p class="card-text text-center text-white mt-2"
+                                style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8538A6"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Interventions de <br> Psychologues
+                            </p>
+                            <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8538A6"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Témoignages <br> d’Experts
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 custom-card-margin">
+                    <a href="https://supaheroes.fr/developpement-de-lintelligence-emotionnelle-chez-les-enfants-pour-prevenir-et-combattre-le-harcelement-scolaire/"
+                        class="card mb-3 h-100 mx-auto custom-card"
+                        style="background-color: #8538A6; text-decoration: none;">
+                        <img src="img/atelier-3.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center text-white"
+                                style="font-family: 'Mouse Memoirs'; font-size: 25px;">Ateliers de Développement
+                                Émotionnel</h5>
+                            <p class="card-text text-center text-white mt-2"
+                                style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Gestion des <br> Émotions
+                            </p>
+                            <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Confiance en Soi
+                            </p>
+                            <p class="card-text text-center text-white" style="font-family: 'Barlow'; font-size: 18px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F2CB57"
+                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Expression Créative
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+
             </div>
-        </diV>
-        
+        </div>
     </div>
-        
+
+    <div class="container custom-contenaire-partenaires" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <h1 class="text-center" style="font-family: 'Mouse Memoirs'; font-size: 55px; color:#0D3D5F">Nos partenaires :
+        </h1>
+        <div class="scroll mt-2">
+            <div id="caroussel-bis" class="m-scroll mt-5">
+                <!-- Répétez les logos de vos partenaires selon vos besoins -->
+                <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
+                <img decoding="async" src="/img/edf 1.png" alt="INRAE">
+                <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
+                <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
+                <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
+                <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
+                <img decoding="async" src="/img/levis.png" alt="INRAE">
+                <img decoding="async" src="/img/supreme.png" alt="INRAE">
+                <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
+                <img decoding="async" src="/img/edf 1.png" alt="INRAE">
+                <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
+                <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
+                <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
+                <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
+                <img decoding="async" src="/img/levis.png" alt="INRAE">
+                <img decoding="async" src="/img/supreme.png" alt="INRAE">
+                <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
+                <img decoding="async" src="/img/edf 1.png" alt="INRAE">
+                <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
+                <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
+                <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
+                <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
+                <img decoding="async" src="/img/levis.png" alt="INRAE">
+                <img decoding="async" src="/img/supreme.png" alt="INRAE">
+                <img decoding="async" src="/img/logo-butagaz-1024x358 1.png" alt="INRAE">
+                <img decoding="async" src="/img/edf 1.png" alt="INRAE">
+                <img decoding="async" src="/img/bereal 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Decathlon_Logo 1.png" alt="INRAE">
+                <img decoding="async" src="/img/Samsung_logo_blue.png" alt="INRAE">
+                <img decoding="async" src="/img/MyDigitalSchool.png" alt="INRAE">
+                <img decoding="async" src="/img/service-publiv.png" alt="INRAE">
+                <img decoding="async" src="/img/enfance.jpeg" alt="INRAE">
+                <img decoding="async" src="/img/levis.png" alt="INRAE">
+                <img decoding="async" src="/img/supreme.png" alt="INRAE">
+
+                <!-- Assurez-vous d'ajouter suffisamment d'éléments pour un défilement fluide -->
+                <!-- Répétez les logos de vos partenaires selon vos besoins -->
+            </div>
+        </div>
+    </diV>
+
+    </div>
+
     <footer class="footer">
         <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
         </div>
-    
-     
+
+
         <section id="footer-section" class="mb-4">
             <div class="btn_wrap d-flex justify-content-center"> <!-- Ajout de la classe justify-content-center -->
-                <a href="https://www.instagram.com/unia.france/" target="_blank"><span class="partager-footer">Partager</span>
+                <a href="https://www.instagram.com/unia.france/" target="_blank"><span
+                        class="partager-footer">Partager</span>
                     <div class="container3">
-                        <img class="img-footer"src="img/icons8-facebook-nouveau-50.png">
+                        <img class="img-footer" src="img/icons8-facebook-nouveau-50.png">
                         <img class="img-footer" src="img/icons8-instagram-50.png">
-                        <img class="img-footer"src="img/icons8-logo-youtube-50.png">
-                        <img class="img-footer"src="img/icons8-twitter-50.png">
-                        <img class="img-footer"src="img/icons8-tic-tac-50.png">
+                        <img class="img-footer" src="img/icons8-logo-youtube-50.png">
+                        <img class="img-footer" src="img/icons8-twitter-50.png">
+                        <img class="img-footer" src="img/icons8-tic-tac-50.png">
                     </div>
             </div>
         </section></a>
-    
+
         <ul class="menu">
-            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;" href="accueil.html">Accueil</a></li>
-            <li class="menu__item"><a class="menu__link"  style="font-family: 'Mouse Memoirs'; font-size: 30px;"href="journal.html">Mon Journal</a></li>
-            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;" href="temoignages.html">Temoignages</a></li>
-            <li class="menu__item"><a class="menu__link"  style="font-family: 'Mouse Memoirs'; font-size: 30px;"href="blog.html">Blog</a></li>
+            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;"
+                    href="accueil.html">Accueil</a></li>
+            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;"
+                    href="journal.html">Mon Journal</a></li>
+            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;"
+                    href="temoignages.html">Temoignages</a></li>
+            <li class="menu__item"><a class="menu__link" style="font-family: 'Mouse Memoirs'; font-size: 30px;"
+                    href="blog.html">Blog</a></li>
         </ul>
         <p>&copy; UNIA | Tout droits réservés</p>
-      </footer>
+    </footer>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <!-- Inclure le fichier JavaScript de Bootstrap -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Inclure le fichier JavaScript de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-<!-- Lien vers Bootstrap JS (requis pour le fonctionnement de la navbar) -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+    <!-- Lien vers Bootstrap JS (requis pour le fonctionnement de la navbar) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
+
 </html>
