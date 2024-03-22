@@ -677,6 +677,10 @@ svg path{
   flex-wrap: wrap;
 }
 
+.menu{
+  font-family: Mouse Memoirs;
+}
+
 .social-icon__item,
 .menu__item {
   list-style: none;
